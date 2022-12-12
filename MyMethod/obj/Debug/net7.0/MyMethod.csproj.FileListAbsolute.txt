@@ -1,0 +1,12 @@
+/home/alexey/edu/c#/cHwSem7/MyMethod/bin/Debug/net7.0/MyMethod.deps.json
+/home/alexey/edu/c#/cHwSem7/MyMethod/bin/Debug/net7.0/MyMethod.dll
+/home/alexey/edu/c#/cHwSem7/MyMethod/bin/Debug/net7.0/MyMethod.pdb
+/home/alexey/edu/c#/cHwSem7/MyMethod/obj/Debug/net7.0/MyMethod.csproj.AssemblyReference.cache
+/home/alexey/edu/c#/cHwSem7/MyMethod/obj/Debug/net7.0/MyMethod.GeneratedMSBuildEditorConfig.editorconfig
+/home/alexey/edu/c#/cHwSem7/MyMethod/obj/Debug/net7.0/MyMethod.AssemblyInfoInputs.cache
+/home/alexey/edu/c#/cHwSem7/MyMethod/obj/Debug/net7.0/MyMethod.AssemblyInfo.cs
+/home/alexey/edu/c#/cHwSem7/MyMethod/obj/Debug/net7.0/MyMethod.csproj.CoreCompileInputs.cache
+/home/alexey/edu/c#/cHwSem7/MyMethod/obj/Debug/net7.0/MyMethod.dll
+/home/alexey/edu/c#/cHwSem7/MyMethod/obj/Debug/net7.0/refint/MyMethod.dll
+/home/alexey/edu/c#/cHwSem7/MyMethod/obj/Debug/net7.0/MyMethod.pdb
+/home/alexey/edu/c#/cHwSem7/MyMethod/obj/Debug/net7.0/ref/MyMethod.dll
