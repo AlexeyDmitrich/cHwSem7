@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "MyMethod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/MyMethod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyMethod.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MyMethod/1.0.0": {
+      "type": "project",
+      "path": "../MyMethod/MyMethod.csproj",
+      "msbuildProject": "../MyMethod/MyMethod.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "MyMethod >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/alexey/.nuget/packages/": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/alexey/edu/c#/cHwSem7/MyMethod/MyMethod.csproj": {
+              "projectPath": "/home/alexey/edu/c#/cHwSem7/MyMethod/MyMethod.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

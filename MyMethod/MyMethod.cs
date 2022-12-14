@@ -147,6 +147,8 @@ public static class MyMethod {
 
     // вывод двухмерного double массива
     public static void Print (double[,] array){
+        Console.ForegroundColor = ConsoleColor.Red;
+        //Console.BackgroundColor = ConsoleColor.Green;
         int rows = array.GetUpperBound(0)+1;
         int columns = array.Length / rows;
         for(int i = 0; i < rows; i++){
@@ -155,6 +157,7 @@ public static class MyMethod {
             }
             Console.WriteLine();
         }
+        Console.ResetColor();
         Console.WriteLine();
     }
 
