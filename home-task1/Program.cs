@@ -8,15 +8,24 @@ m = 3, n = 4.
 */
 Random rnd = new Random();
 
-double[,] myArray = ArrayGenDD();
+int rows = IntInput("число строк");
+int columns = IntInput("число столбцов");
+int min = IntInput("минимальное значение");
+int max = IntInput("максимальное значение");
+
+double[,] myArray = ArrayGenDD(rows, columns, min, max);
 Print(myArray);
 
-double[,] ArrayGenDD()
+/// <summary>
+/// Метод для генерации двумерного массива заполненного случайными числами с ограничениями
+/// </summary>
+/// <param name="rows">Число строк</param>
+/// <param name="columns">Число столбцов</param>
+/// <param name="min">Минимально-допустимое значение</param>
+/// <param name="max">Максимально-допустимое значение</param>
+/// <returns>Массив формата double[,]</returns>
+double[,] ArrayGenDD(int rows, int columns, int min, int max)
     {
-        int rows = IntInput("число строк");
-        int columns = IntInput("число столбцов");
-        int min = IntInput("минимальное значение");
-        int max = IntInput("максимальное значение");
         double[,] array = new double[rows, columns];
         for (int i = 0; i < rows; i++)
         {
@@ -28,3 +37,5 @@ double[,] ArrayGenDD()
         // my.Print(array);
         return array;
     }
+
+// метод отправляется в копилочку методов

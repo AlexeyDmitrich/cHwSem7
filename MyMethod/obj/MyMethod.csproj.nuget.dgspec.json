@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/alexey/edu/c#/cHwSem7/MyMethod/MyMethod.csproj": {}
+    "/home/reu/edu/c#sem/sem7hw/cHwSem7/MyMethod/MyMethod.csproj": {}
   },
   "projects": {
-    "/home/alexey/edu/c#/cHwSem7/MyMethod/MyMethod.csproj": {
+    "/home/reu/edu/c#sem/sem7hw/cHwSem7/MyMethod/MyMethod.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/alexey/edu/c#/cHwSem7/MyMethod/MyMethod.csproj",
+        "projectUniqueName": "/home/reu/edu/c#sem/sem7hw/cHwSem7/MyMethod/MyMethod.csproj",
         "projectName": "MyMethod",
-        "projectPath": "/home/alexey/edu/c#/cHwSem7/MyMethod/MyMethod.csproj",
-        "packagesPath": "/home/alexey/.nuget/packages/",
-        "outputPath": "/home/alexey/edu/c#/cHwSem7/MyMethod/obj/",
+        "projectPath": "/home/reu/edu/c#sem/sem7hw/cHwSem7/MyMethod/MyMethod.csproj",
+        "packagesPath": "/home/reu/.nuget/packages/",
+        "outputPath": "/home/reu/edu/c#sem/sem7hw/cHwSem7/MyMethod/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/alexey/.nuget/NuGet/NuGet.Config"
+          "/home/reu/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"

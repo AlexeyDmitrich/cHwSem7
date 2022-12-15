@@ -1,26 +1,45 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "MyMethod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/MyMethod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyMethod.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MyMethod/1.0.0": {
+      "type": "project",
+      "path": "../MyMethod/MyMethod.csproj",
+      "msbuildProject": "../MyMethod/MyMethod.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "MyMethod >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "/home/alexey/.nuget/packages/": {}
+    "/home/reu/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/alexey/edu/c#/cHwSem7/home-task3/home-task3.csproj",
+      "projectUniqueName": "/home/reu/edu/c#sem/sem7hw/cHwSem7/home-task3/home-task3.csproj",
       "projectName": "home-task3",
-      "projectPath": "/home/alexey/edu/c#/cHwSem7/home-task3/home-task3.csproj",
-      "packagesPath": "/home/alexey/.nuget/packages/",
-      "outputPath": "/home/alexey/edu/c#/cHwSem7/home-task3/obj/",
+      "projectPath": "/home/reu/edu/c#sem/sem7hw/cHwSem7/home-task3/home-task3.csproj",
+      "packagesPath": "/home/reu/.nuget/packages/",
+      "outputPath": "/home/reu/edu/c#sem/sem7hw/cHwSem7/home-task3/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/alexey/.nuget/NuGet/NuGet.Config"
+        "/home/reu/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -31,7 +50,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/reu/edu/c#sem/sem7hw/cHwSem7/MyMethod/MyMethod.csproj": {
+              "projectPath": "/home/reu/edu/c#sem/sem7hw/cHwSem7/MyMethod/MyMethod.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

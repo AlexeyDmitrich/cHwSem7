@@ -114,7 +114,11 @@ public static class MyMethod {
     // вывод в консоль double массива
     public static void Print (double[] array){
         for(int i = 0; i < array.Length; i++){
-            Console.Write($"{array[i]} ");
+            if (array[i]>0) Console.ForegroundColor = ConsoleColor.Red;
+            if (array[i]<0) Console.ForegroundColor = ConsoleColor.DarkBlue;
+            if (array[i]==0) Console.ForegroundColor = ConsoleColor.Green;
+            Console.Write($"{array[i]}; ");
+            Console.ResetColor();
         }
         Console.WriteLine();
         }
@@ -324,6 +328,44 @@ public class MyGenerate{
         return array;
     }
 
-    
+    /// <summary>
+    /// Метод для генерации двумерного массива заполненного случайными числами с ограничениями
+    /// </summary>
+    /// <returns>Массив формата double[,]</returns>
+    public double[,] ArrayGenDD()
+    {
+        int rows = MyMethod.IntInput("число строк");
+        int columns = MyMethod.IntInput("число столбцов");
+        int min = MyMethod.IntInput("минимальное значение");
+        int max = MyMethod.IntInput("максимальное значение");
+        double[,] array = new double[rows, columns];
+        for (int i = 0; i < rows; i++)
+        {
+            for (int j= 0; j < columns; j++){
+                array[i,j] = Math.Round(((rnd.NextDouble())*rnd.Next(min,max)), 1);
+            }  
+        }
+        // отладка:
+        // my.Print(array);
+        return array;
+    }
+
+    public int[,] ArrayGenDI()
+    {
+        int rows = MyMethod.IntInput("число строк");
+        int columns = MyMethod.IntInput("число столбцов");
+        int min = MyMethod.IntInput("минимальное значение");
+        int max = MyMethod.IntInput("максимальное значение");
+        int[,] array = new int[rows, columns];
+        for (int i = 0; i < rows; i++)
+        {
+            for (int j= 0; j < columns; j++){
+                array[i,j] = rnd.Next(min,max);
+            }  
+        }
+        // отладка:
+        // my.Print(array);
+        return array;
+    }
 
 }
