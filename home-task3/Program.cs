@@ -17,19 +17,22 @@ Print(usersArray);
 double[] columnsAbs = AbsInArray(usersArray);
 Print(columnsAbs);
 
-double[] AbsInArray (int[,] usersArray){
+double[] AbsInArray(int[,] usersArray)
+{
     double[] sum = new double[usersArray.GetLength(1)];
-    double[] abs = new double[usersArray.GetLength(1)];;
+    double[] abs = new double[usersArray.GetLength(1)]; ;
     for (int i = 0; i < usersArray.GetLength(1); i++)
+    {
+        for (int j = 0; j < usersArray.GetLength(0); j++)
         {
-            for (int j= 0; j < usersArray.GetLength(0); j++){
-                sum[i] += usersArray[j,i];
-                //Print($"сумма: {sum[i]}");
-            }
-            //Print("--------------");  
+            sum[i] += usersArray[j, i];
+            //Print($"сумма: {sum[i]}");
         }
-    for (int i =0; i<sum.Length; i++){
-        abs[i] = Math.Round((sum[i]/sum.Length), 1);
+        //Print("--------------");  
+    }
+    for (int i = 0; i < sum.Length; i++)
+    {
+        abs[i] = Math.Round((sum[i] / sum.Length), 1);
     }
     return abs;
 }

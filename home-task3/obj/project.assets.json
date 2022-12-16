@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "/home/reu/.nuget/packages/": {}
+    "/home/alexey/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/reu/edu/c#sem/sem7hw/cHwSem7/home-task3/home-task3.csproj",
+      "projectUniqueName": "/home/alexey/edu/c#/cHwSem7/home-task3/home-task3.csproj",
       "projectName": "home-task3",
-      "projectPath": "/home/reu/edu/c#sem/sem7hw/cHwSem7/home-task3/home-task3.csproj",
-      "packagesPath": "/home/reu/.nuget/packages/",
-      "outputPath": "/home/reu/edu/c#sem/sem7hw/cHwSem7/home-task3/obj/",
+      "projectPath": "/home/alexey/edu/c#/cHwSem7/home-task3/home-task3.csproj",
+      "packagesPath": "/home/alexey/.nuget/packages/",
+      "outputPath": "/home/alexey/edu/c#/cHwSem7/home-task3/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/reu/.nuget/NuGet/NuGet.Config"
+        "/home/alexey/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -51,8 +51,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/home/reu/edu/c#sem/sem7hw/cHwSem7/MyMethod/MyMethod.csproj": {
-              "projectPath": "/home/reu/edu/c#sem/sem7hw/cHwSem7/MyMethod/MyMethod.csproj"
+            "/home/alexey/edu/c#/cHwSem7/MyMethod/MyMethod.csproj": {
+              "projectPath": "/home/alexey/edu/c#/cHwSem7/MyMethod/MyMethod.csproj"
             }
           }
         }

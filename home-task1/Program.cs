@@ -25,17 +25,18 @@ Print(myArray);
 /// <param name="max">Максимально-допустимое значение</param>
 /// <returns>Массив формата double[,]</returns>
 double[,] ArrayGenDD(int rows, int columns, int min, int max)
+{
+    double[,] array = new double[rows, columns];
+    for (int i = 0; i < rows; i++)
     {
-        double[,] array = new double[rows, columns];
-        for (int i = 0; i < rows; i++)
+        for (int j = 0; j < columns; j++)
         {
-            for (int j= 0; j < columns; j++){
-                array[i,j] = Math.Round(((rnd.NextDouble())*rnd.Next(min,max)), 1);
-            }  
+            array[i, j] = Math.Round(((rnd.NextDouble()) * rnd.Next(min, max)), 1);
         }
-        // отладка:
-        // my.Print(array);
-        return array;
     }
+    // отладка:
+    // my.Print(array);
+    return array;
+}
 
 // метод отправляется в копилочку методов
