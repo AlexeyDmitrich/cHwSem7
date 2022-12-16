@@ -1,1 +1,0 @@
-﻿using static MyMethod.MyMethod;
