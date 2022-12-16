@@ -4,6 +4,59 @@
     "/home/alexey/edu/c#/cHwSem7/home-task2/home-task2.csproj": {}
   },
   "projects": {
+    "/home/alexey/edu/c#/cHwSem7/MyMethod/MyMethod.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alexey/edu/c#/cHwSem7/MyMethod/MyMethod.csproj",
+        "projectName": "MyMethod",
+        "projectPath": "/home/alexey/edu/c#/cHwSem7/MyMethod/MyMethod.csproj",
+        "packagesPath": "/home/alexey/.nuget/packages/",
+        "outputPath": "/home/alexey/edu/c#/cHwSem7/MyMethod/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alexey/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/home/alexey/edu/c#/cHwSem7/home-task2/home-task2.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -25,7 +78,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/alexey/edu/c#/cHwSem7/MyMethod/MyMethod.csproj": {
+                "projectPath": "/home/alexey/edu/c#/cHwSem7/MyMethod/MyMethod.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/home/reu/.nuget/packages/": {}
+    "/home/alexey/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/reu/edu/c#sem/sem7hw/cHwSem7/MyMethod/MyMethod.csproj",
+      "projectUniqueName": "/home/alexey/edu/c#/cHwSem7/MyMethod/MyMethod.csproj",
       "projectName": "MyMethod",
-      "projectPath": "/home/reu/edu/c#sem/sem7hw/cHwSem7/MyMethod/MyMethod.csproj",
-      "packagesPath": "/home/reu/.nuget/packages/",
-      "outputPath": "/home/reu/edu/c#sem/sem7hw/cHwSem7/MyMethod/obj/",
+      "projectPath": "/home/alexey/edu/c#/cHwSem7/MyMethod/MyMethod.csproj",
+      "packagesPath": "/home/alexey/.nuget/packages/",
+      "outputPath": "/home/alexey/edu/c#/cHwSem7/MyMethod/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/reu/.nuget/NuGet/NuGet.Config"
+        "/home/alexey/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"

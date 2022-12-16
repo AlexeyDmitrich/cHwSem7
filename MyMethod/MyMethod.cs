@@ -151,13 +151,16 @@ public static class MyMethod {
 
     // вывод двухмерного double массива
     public static void Print (double[,] array){
-        Console.ForegroundColor = ConsoleColor.Red;
-        //Console.BackgroundColor = ConsoleColor.Green;
+        //Console.BackgroundColor = ConsoleColor.DarkGray;
         int rows = array.GetUpperBound(0)+1;
         int columns = array.Length / rows;
         for(int i = 0; i < rows; i++){
             for (int j = 0; j < columns; j++){
+                if (array[i,j]>0) Console.ForegroundColor = ConsoleColor.Red;
+                if (array[i,j]<0) Console.ForegroundColor = ConsoleColor.DarkBlue;
+                if (array[i,j]==0) Console.ForegroundColor = ConsoleColor.Green;
                 Console.Write($"{array[i, j]} \t");
+                Console.ResetColor();
             }
             Console.WriteLine();
         }
