@@ -8,3 +8,9 @@
 17 -> такого числа в массиве нет
 */
 
+using static MyMethod.MyMethod;
+using MyMethod;
+
+MyGenerate gen = new MyGenerate();
+
+double[,] usersArray = gen.ArrayGenDD();
